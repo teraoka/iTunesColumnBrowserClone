@@ -28,30 +28,28 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.listBox1 = new System.Windows.Forms.ListBox();
-            this.listBox2 = new System.Windows.Forms.ListBox();
-            this.listBox3 = new System.Windows.Forms.ListBox();
+            this.listBox3 = new ListTest.DesinedListBox();
+            this.listBox2 = new ListTest.DesinedListBox();
+            this.listBox1 = new ListTest.DesinedListBox();
             this.SuspendLayout();
             // 
-            // listBox1
+            // listBox3
             // 
-            this.listBox1.FormattingEnabled = true;
-            this.listBox1.ItemHeight = 12;
-            this.listBox1.Items.AddRange(new object[] {
-            "すべて (3 ジャンル)",
-            "Pop",
-            "Rock",
-            "Soundtrack"});
-            this.listBox1.Location = new System.Drawing.Point(12, 12);
-            this.listBox1.Name = "listBox1";
-            this.listBox1.ScrollAlwaysVisible = true;
-            this.listBox1.Size = new System.Drawing.Size(243, 160);
-            this.listBox1.TabIndex = 1;
+            this.listBox3.FormattingEnabled = true;
+            this.listBox3.Items.AddRange(new object[] {
+            "すべて (3 アルバム)",
+            "B\'z LIVE in なんば",
+            "GLORY DAYS",
+            "MONSTER\'S GARAGE"});
+            this.listBox3.Location = new System.Drawing.Point(496, 12);
+            this.listBox3.Name = "listBox3";
+            this.listBox3.ScrollAlwaysVisible = true;
+            this.listBox3.Size = new System.Drawing.Size(243, 160);
+            this.listBox3.TabIndex = 3;
             // 
             // listBox2
             // 
             this.listBox2.FormattingEnabled = true;
-            this.listBox2.ItemHeight = 12;
             this.listBox2.Items.AddRange(new object[] {
             "すべて (5 アーティスト)",
             "B\'z",
@@ -65,20 +63,19 @@
             this.listBox2.Size = new System.Drawing.Size(243, 160);
             this.listBox2.TabIndex = 2;
             // 
-            // listBox3
+            // listBox1
             // 
-            this.listBox3.FormattingEnabled = true;
-            this.listBox3.ItemHeight = 12;
-            this.listBox3.Items.AddRange(new object[] {
-            "すべて (3 アルバム)",
-            "B\'z LIVE in なんば",
-            "GLORY DAYS",
-            "MONSTER\'S GARAGE"});
-            this.listBox3.Location = new System.Drawing.Point(496, 12);
-            this.listBox3.Name = "listBox3";
-            this.listBox3.ScrollAlwaysVisible = true;
-            this.listBox3.Size = new System.Drawing.Size(243, 160);
-            this.listBox3.TabIndex = 3;
+            this.listBox1.FormattingEnabled = true;
+            this.listBox1.Items.AddRange(new object[] {
+            "すべて (3 ジャンル)",
+            "Pop",
+            "Rock",
+            "Soundtrack"});
+            this.listBox1.Location = new System.Drawing.Point(12, 12);
+            this.listBox1.Name = "listBox1";
+            this.listBox1.ScrollAlwaysVisible = true;
+            this.listBox1.Size = new System.Drawing.Size(243, 148);
+            this.listBox1.TabIndex = 1;
             // 
             // MainForm
             // 
@@ -96,9 +93,9 @@
 
         #endregion
 
-        private System.Windows.Forms.ListBox listBox1;
-        private System.Windows.Forms.ListBox listBox2;
-        private System.Windows.Forms.ListBox listBox3;
+        private DesinedListBox listBox1;
+        private DesinedListBox listBox2;
+        private DesinedListBox listBox3;
     }
 }
 
